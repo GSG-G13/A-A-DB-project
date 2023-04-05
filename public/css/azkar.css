@@ -1,0 +1,83 @@
+body {
+    position: relative;
+    width: 99%;
+    height: 680px;
+    background-size: 100%;
+
+}
+
+@font-face {
+    font-family: main-font;
+    src: url(../css/ArefRuqaa-Bold.ttf);
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../css/ArefRuqaa-Regular.ttf);
+}
+
+#navbar {
+    text-align: center;
+    overflow: hidden;
+}
+
+nav ul {
+    align-items: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    float: left;
+}
+
+
+nav li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'main-font';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 17px;
+}
+
+.mainP {
+    position: absolute;
+    top: 18%;
+    left: 23%;
+    color: #000;
+    font-size: larger;
+    text-align: center;
+    font-family: 'myFont';
+    font-style: normal;
+}
+input{
+    font-family:'myFont';
+    width: 500px;
+    height: 30px;
+   
+
+}
+button{
+    font-family:'myFont';
+    font-style: normal;
+    font-weight: 400;
+    height: 30px;
+}
+.mainForm{
+position: absolute;
+top: 30%;
+left: 31%;
+color: #000;
+font-size: larger;
+text-align: center;
+font-family: 'myFont';
+font-style: normal;
+
+}
