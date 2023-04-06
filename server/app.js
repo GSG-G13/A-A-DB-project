@@ -1,7 +1,7 @@
 const express = require('express');
 
 const { join } = require('path');
-const router = require('./controllers');
+const router = require('./routes');
 
 const app = express();
 
